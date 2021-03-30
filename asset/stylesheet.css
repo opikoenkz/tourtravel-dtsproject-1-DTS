@@ -611,9 +611,7 @@ footer {
     padding: 10px 15px; }
 
   /*----- Navbar -----*/
-  .logo {
-    display: none;
-  }
+  
 
   /*----- Hero Image -----*/
 
@@ -636,7 +634,28 @@ footer {
     padding: 5px; }
 
   /*----- Navbar -----*/
+  .navbar .logo img {
+    height: 50px;
+    padding: 4px;
+    margin-top: 8px;
+    margin-left: 10px;
+    float: left; }
 
+  .navbar .header-right {
+    display: flex;
+    float: right;
+    list-style: none;
+    padding-right: 10px;
+    align-items: center; }
+  
+  .header-right li .nav-link {
+    font-weight: normal;
+    font-size: 13px;
+    color: var(--nav-link-color);
+    float: right;
+    padding: 20px 5px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out; }
+  
   /*----- Hero Image -----*/
 
   /*----- Btn Hero -----*/
